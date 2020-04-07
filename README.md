@@ -22,7 +22,14 @@ $./ganache-2.3.0-beta.2-linux-x86_64.AppImage
 ### development configs
 - setup `.env` for secrets
 - `truffle-config.js` => development and test networks
-- utilizing `infura.io` for testing against `rinkeby` test network 
+- utilizing `infura.io` for testing against `rinkeby` test and mainnet network 
+
+### rinkeby test faucet
+- access [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/)
+- generate `12` word mnemonic
+- gather `mnemonic`
+- save `address`, `public key` and `private key`
+- request for funds at [https://faucet.rinkeby.io/](https://faucet.rinkeby.io/)
 
 ### install requirements
 - [install nodejs instructions](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
